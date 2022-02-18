@@ -1,0 +1,243 @@
+/* style form ask */
+#questionAnswers {
+    font: normal 13px Tahoma, Verdana, "Times New Roman";
+    color: #000;
+    line-height: 21px; 
+    margin: 10px 0px;
+}
+#medical_block form{
+    display: block;
+    float: left;
+    width: 100%;
+}
+div#questionAnswers input[type=input],
+div#questionAnswers input[type=text]{
+    position: relative;
+    display: block;
+    padding: 10px;
+    width: 300px;
+    background-color: #fff;
+    font: 15px arial, tahoma, verdana, sans-serif;
+    color: #333;
+    border: 1px solid #78B597;
+    box-shadow: 0px 0px 6px #D8DCDA;
+    border-radius: 4px;
+    margin: 0px 0px 15px 0px;
+    outline: none;
+}
+div#capcha{
+    margin: 10px 36px 20px 0px; 
+    float: left;
+}
+div#capcha span{
+    font: 15px arial, tahoma, verdana, sans-serif;
+    color: #898989;
+    padding: 10px 0px 0px 0px;
+    float: left;
+}
+div#capcha img{
+    float: left;
+    margin-top: 10px;
+}
+div#capcha input[type=text]{
+   float: left;
+   width:50px;
+   height: 13px;
+   margin: 0px 5px 0px 0px;
+}
+div#capcha input[name="UserCode"]{
+   float: left;
+   width:50px;
+   height: 10px;
+}
+div#questionAnswers input[type=input]:hover,
+div#capcha input[type=text]:hover,
+div#questionAnswers input[type=text]:hover {
+    box-shadow: 0px 0px 6px #A8C5B7;
+}
+div#questionAnswers textarea {
+    position: relative;
+    /* float: left; */
+    display: block;
+    padding: 10px;
+    width: 435px;
+    min-width: 435px;
+    max-width: 435px;
+    height: 100px;
+    min-height: 100px;
+    max-height: 200px;
+    font: 15px arial, tahoma, verdana, sans-serif;
+    color: #333;    
+    background-color: #fff;
+    border: 1px solid #78B597;
+    box-shadow: 0px 0px 6px #D8DCDA;
+    border-radius: 4px;
+    margin: 0px 0px 10px 0px;
+    outline: none;
+}
+div#questionAnswers textarea:hover {
+    box-shadow: 0px 0px 6px #A8C5B7;   
+}
+div#questionAnswers textarea:focus {
+    box-shadow: 0px 0px 6px #A8C5B7; 
+}
+div#questionAnswers img {
+    float: left;
+    border: none;
+    margin: 5px 10px 0px 7px;
+    border-radius: 5px;
+    box-shadow: none;
+}
+div#questionAnswers input[type=submit] {
+    /* clear: both; */
+    position: relative;
+    display: block;
+    width: 200px;
+    padding: 14px 23px 10px;
+    margin: 0px 10px 10px 0px;
+    font: 17px arial, tahoma, verdana, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    
+    background: #40A883;
+    
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+div#questionAnswers input[type=submit]:hover {
+    background: #288061;
+}
+.questionTitle {
+    font: italic 21px 'segoe ui', Arial, Tahoma, Verdana, "Times New Roman";
+    color: #287B51;
+    margin: 15px 0px 10px 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px dashed #287B51;
+}
+/* / style form ask */
+div#medical_block{
+    clear: both;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+div.answers {
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin: 0;
+    background: url(../img/bg-wave-line.png) no-repeat bottom center;
+    padding: 30px 0px 30px 0px;    
+    border-top: 1px dashed #51A882;
+}
+div.answers div.dataUser{
+    width: 100%;
+    height: auto;
+    float: left; 
+}
+div.answers div.dataUser span.name{
+    font: bold 18px "ptSansLight", "Segoe UI", Tahoma, Arial, Verdana, sans-serif;
+    color: #313B4D;    
+}
+div.answers div.dataUser span.date{
+    display: inline-block;
+    padding: 0px 0px 0px 5px;
+    font: italic 13px Arial, "ptSansLight", "Segoe UI", Tahoma, Verdana, sans-serif;
+    color: #95ADA4;    
+}
+div.answers div.ask{
+    width: auto;
+    height: auto;
+    float: left;
+    clear: both; 
+    padding: 0px 0px 15px 30px;
+    font: italic 17px/32px Arial, Verdana, sans-serif;
+    color: #1B8A62;        
+}
+div.answers div.reply{
+    position: relative;
+    width: auto;
+    height: auto;
+    float: left;
+    clear: both; 
+    padding: 10px 20px;
+    margin: 0px 0px 0px 30px;
+    font: italic 15px/24px Arial, Verdana, sans-serif;
+    color: #333;
+    background: #D8E7FB;
+    border-radius: 6px;
+}
+div.answers div.reply:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    left: 15px;
+    width: auto;
+    height: auto;
+    border-left: 8px solid transparent;
+    border-bottom: 10px solid #D8E7FB;
+    border-right: 8px solid transparent;    
+    border-radius: 0;
+}
+/* style btn */
+div.moreQuestionBlock{
+    width: 100%;
+    height: auto;
+    float: left;
+    text-align: center;
+    margin: 10px 0;
+}
+a.moreQuestion{
+    position: relative;
+    display: inline-block;
+    padding: 12px 15px 9px 75px;
+    font: 19px 'segoe ui', arial, tahoma, verdana, sans-serif;
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #40a883;
+    border-radius: 6px;
+    box-shadow: 0px 3px 0px #206D51;
+    overflow: hidden;
+}
+a.moreQuestion span{
+    font-size: 15px;
+    text-transform: none;
+    color: #B2E7C3;
+}
+a.moreQuestion:active{
+    top: 2px;
+    box-shadow: 0px 1px 0px #206D51;
+}
+a.moreQuestion:hover{
+    background: #298e6a;
+}
+a.moreQuestion:hover:before{
+    background: url(../img/sprite.png) no-repeat -683px -400px, #4EC49B
+}
+a.moreQuestion:hover:after{
+    border-left: 6px solid #4EC49B
+}
+a.moreQuestion:after{
+    content: '';
+    position: absolute;
+    left: 55px;
+    top: 45%;
+    border-top: 6px solid transparent;
+    border-left: 6px solid #4ab690;
+    border-bottom: 6px solid transparent;
+}
+a.moreQuestion:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 55px;
+    height: 100%;
+    background: url(../img/sprite.png) no-repeat -683px -400px, #4ab690;
+}

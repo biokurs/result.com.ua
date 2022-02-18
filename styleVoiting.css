@@ -1,0 +1,1510 @@
+/*-------------------HEADER---------------------------------*/
+header > aside a.linkHomePage {
+    top: 10px;
+}
+nav .userLinks {
+    display: none;
+}
+.contacts .phone span:nth-child(3):after {
+    content: "";
+    background: url(../img/icon-viber.png) no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: 23px;
+    top: -6px;
+}
+.contacts .phone span:nth-child(3) {
+    position: relative;
+}
+.contacts .email a {
+    position: relative;
+    padding: 0 0 0 10px;
+}
+.contacts .email a:before {
+    content: "";
+    background: url(../img/envelope.svg) no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-size: 20px;
+    left: -16px;
+    top: -1px;
+}
+header div.getResults {
+    display: none;
+}
+header div.section {
+    display: none;
+}
+header div.contacts{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+}
+header div.contacts > div {
+    display: block;
+}
+header div.contacts .phone {
+    width: 75%;
+}
+header div.contacts > div.email {
+    width: 25%;
+}
+header div.contacts > div.phone span.number {
+    padding: 0px 20px 0px 0px;
+    color: #328a5a;
+    -webkit-text-fill-color: #328a5a;
+}
+header a.logo .imglogo {
+        display: none;
+    }
+@media only screen and (max-width: 1200px){
+    header div.contacts > div.phone span.title {
+        font: 20px arial, tahoma, verdana, sans-serif;
+    }
+}
+@media only screen and (min-width: 992px){
+    header div.contacts > div.email span.title {
+        padding: 5px 0px 6px 30px;
+    }
+}  
+@media only screen and (max-width: 992px){
+    body {
+        min-width: inherit;
+        overflow-x: hidden;
+    }
+    header div.contacts > div.email span.title {
+        padding: 5px 0px 6px 30px;
+    }
+    header div.contacts > div.phone span.number {
+        font: italic 18px arial, tahoma, verdana, sans-serif;
+        float: none;
+        padding: 0;
+        text-align: center;
+    }
+    header div.contacts > div.phone span.title {
+        margin: 0 103px;
+        width: 100%;
+    }
+    header div.contacts .phone {
+        width: 70%;
+    }
+    header div.contacts > div.email {
+        width: 30%;
+    }
+    nav > ul > li > a {
+        font: 12px arial, tahoma, verdana, sans-serif;
+    }
+    .contacts .phone span:nth-child(3):after {
+        content: "";
+        background: url(../img/icon-viber.png) no-repeat;
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-size: 21px;
+        top: -6px;
+    }
+    header div.contacts > div.phone span.title {
+        font: 16px arial, tahoma, verdana, sans-serif;
+    }
+}
+@media only screen and (max-width: 767px) {
+    nav.nav-menu_active {
+        border: 1px solid #ccedda;
+    }
+    nav .userLinks {
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+    nav .userLinks .langLink {
+        display: flex;
+        display: -webkit-box;
+        display: -ms-flexbox;
+    }
+    nav div.userLinks div.langLink a:hover, nav div.userLinks div.langLink a.current {
+        border-radius: 50px;
+        background: #42C88B;
+        -webkit-box-shadow: inset -10px -8px 12px #1A894A;
+                box-shadow: inset -10px -8px 12px #1A894A;
+        border: 4px solid #D0E6DA;
+    }
+    nav div.userLinks div.langLink a:last-child {
+        margin: 0;
+    }
+    nav div.userLinks div.langLink a {
+        display: inline-block;
+        width: 32px;
+        height: 23px;
+        padding: 8px 0px 0px 0px;
+        margin: 1px 7px 0px 0px;
+        font: 12px arial, tahoma, verdana, sans-serif;
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 50px;
+        background: #40B774;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        border: 4px solid #D0E6DA;
+    }
+    header > aside a.linkHomePage {
+        display: none;
+    }
+    footer div#positionFooter > div.copyright div.copyRightBiokurs {
+        padding: 0 0 10px 0;
+    }
+    div.btnEventScrollTop {
+        width: 50px;
+        height: 50px;
+        background: url(../img/sprite.png) no-repeat -1px -1098px, rgba(64, 168, 134, 0.6);
+    }
+    div.btnEventScrollTop:hover {
+        background: url(../img/sprite.png) no-repeat -1px -1098px, rgba(64, 168, 134, 0.6);
+    }
+    body div.btnEventScrollTop.left {
+        left: auto; 
+    } 
+    /* div.btnEventScrollTop {
+        bottom: 560px!important;
+    }   */
+    body header {
+        width: 100%;
+    }
+    body div#positionContent {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 0px 0 0;
+    }
+    header {
+        background: white;
+    }
+    header > #header {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+    header > aside {
+        width: 100%;
+        text-align: center;
+        position: static;
+        padding: 0;
+    } 
+   /*  header a.logo {
+       width: 100%;
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-pack: center;
+           -ms-flex-pack: center;
+               justify-content: center;
+   } */
+    header div.section {
+        display: block;
+        position: absolute;
+        right: 6px;
+        top: -3px;
+        z-index: 100;
+    }
+    header .section .menu-btn  {
+        display: block;
+        width: 45px;
+        height: 45px;
+        position: relative;
+        z-index: 100;
+        outline: none;
+    }
+    header .menu-btn span::before, header .menu-btn span::after {
+        content: '';
+        display: block;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        transition: 0.2s;
+    }
+    header .menu-btn span, header .menu-btn span::before, header .menu-btn span::after {
+        position: absolute;
+        top: 50%;
+        margin-top: -2px;
+        left: 50%;
+        margin-left: -12px;
+        width: 25px;
+        height: 4px;
+        background-color: #0B6F4C;
+    }
+    body header .section .menu-btn span, body header .section .menu-btn span:before, body header .section .menu-btn span:after {
+        margin-top: -2px;
+    }
+    header .menu-btn span::before {
+        -webkit-transform: translateY(-7px);
+            -ms-transform: translateY(-7px);
+                transform: translateY(-7px);
+    }
+    header .menu-btn span::after {
+        -webkit-transform: translateY(7px);
+            -ms-transform: translateY(7px);
+                transform: translateY(7px);
+    }
+    header .menu-btn.open span:nth-child(1) {
+        height: 0;
+    }
+    body header .section .menu-btn.open span::before {
+        transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: rotate(135deg);
+        -ms-transform: rotate(135deg);
+        -moz-transform: rotate(135deg);
+        -o-transform: rotate(135deg);
+        transform: rotate(135deg);
+        width: 25px;
+        height: 3px;
+    }
+    body header .section .menu-btn.open span::after {
+        transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+        -moz-transform: rotate(-135deg);
+        -o-transform: rotate(-135deg);
+        transform: rotate(-135deg);
+        width: 25px;
+        height: 3px;
+    }
+    nav div.listLevel2 > ul > li:hover > a {
+        color: white;
+    }
+    header a.logo {
+        width: 320px;
+        /* z-index: 93;
+        width: 200px; */
+        left: 53%;
+        -webkit-transform: translate(-50%,0);
+        -ms-transform: translate(-50%,0);
+        transform: translate(-50%,0);
+    }
+   /*  header a.logo:before {
+       content: "";
+       background: url("/img/Logo_Biokurs1.jpg");
+   } */
+    header a.logo img {
+        display: none;
+        position: relative;
+        top: -16px;
+        /*width: 60%;
+        object-fit: contain; */
+       /* width: 100%;
+        height: 100%;
+        object-fit: contain;*/
+    }
+    header a.logo .imglogo {
+        display: block;
+        width: 85%;
+        height: auto;
+    }
+    header div.userLinks {
+        width: 100%;
+        text-align: center;
+    }
+    header div.userLinks {
+        float: none;
+    }
+    #index-content header div.userLinks div.langLink {
+        padding: 0;
+    }
+    header div.userLinks div.langLink {
+        /* float: none;
+        padding-right: 45px; */
+        display: none;
+    }
+    header div.getResults, #rightPart div.getResults {
+        display: block;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 7px 5px;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 17px;
+        background-color: #303F9F;
+        position: absolute;
+        width: 70%;
+        bottom: -10px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translate(-50%,0);
+            -ms-transform: translate(-50%,0);
+                transform: translate(-50%,0);
+    }
+    header div.getResults a:before, #rightPart div.getResults a:before {
+        content: "\f0a4";
+        font-family: FontAwesome;
+        cursor: pointer;
+        color: #fff;
+        font-size: 23px; 
+        left: -5px;
+        position: relative;
+    }
+    header div.getResults:hover {
+        background: #40a883; 
+    }
+    header div.getResults a:hover {
+        text-decoration: underline;
+    }
+    header div.getResults a, #rightPart div.getResults a {
+        text-decoration: none;
+        color: #fff;
+        /*text-transform: uppercase;*/
+    }
+    nav div.listLevel2 > ul {
+        background: white;
+        padding: 0px 0;
+    }
+    a {
+        outline: none;
+    }
+    nav div.listLevel2 > ul > li > a {
+        color: #009873;
+        outline: none;
+    }
+    header div.contacts > div.email {
+        display: none;
+    }
+    header div.userLinks div.socialLink {
+        display: none;
+    }
+    div#pluginFaceBookSmall {
+        display: none;
+    }
+    div#slideShow {
+        display: none;
+    }
+    header div.contacts {
+        display: none;
+    }
+    nav > ul > li > a {
+        color: #0B6F4C;
+        font: 15px arial, tahoma, verdana, sans-serif;
+        height: 30px;
+        padding: 10px 30px 0px 25px;
+        font-weight: bold;
+        text-align: left;
+        text-shadow: none;
+        outline: none;
+    }
+    nav > ul > li[data-level="true"] > a > span:after {
+        background: none;
+    }
+    nav > ul > li > a.list-block_item > span:after {
+        content: '\f107';
+        position: relative;
+        font-family: FontAwesome;
+        color: #0B6F4C;
+        font-size: 18px;
+        top: 1px;
+        right: -9px;
+        width: 0;
+        height: 0;
+    }
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        width: 300px;
+        height: auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        opacity: 1;
+       -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+        transition: opacity 0.5s, -webkit-transform 0.5s;
+        -o-transition: transform 0.5s, opacity 0.5s;
+        transition: transform 0.5s, opacity 0.5s;
+        transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+        right: -306px;
+        border-radius: 0;
+        background: #e4f7ec;
+        overflow-y: scroll;
+    }
+    nav > ul {
+        display: block;
+        padding-top: 42px;
+    }
+    nav > ul > li {
+        display: block;
+        border-bottom: 1px solid #ccedda;
+        border-top: 1px solid #ccedda;
+    }
+    .nav-menu_active {
+        -webkit-transform: translateX(-100%);
+            -ms-transform: translateX(-100%);
+                transform: translateX(-100%);
+    }
+    nav div.listLevel2 {
+        position: static;
+        top: 0;
+        left: 0;
+        padding: 0;
+        border-radius: 0;
+        background: unset;
+    }
+    nav div.listLevel2 > ul {
+        width: auto;
+    }
+    nav > ul > li:first-child > a.active, nav > ul > li:first-child:hover > a {
+        border-radius: 0;
+    }
+    nav:after {
+        background: none;
+    }
+    nav > ul > li:hover div.listLevel2 {
+        display: none; 
+      /*   height: 0;
+      overflow: hidden; */
+    } 
+     nav ul.listLevel1 li div.listLevel2.show-list {
+        display: block; 
+        /* height: auto; */
+    } 
+    nav ul.listLevel1 .list-block_item.closed span:after{
+        -webkit-transform: rotate(180deg);
+            -ms-transform: rotate(180deg);
+                transform: rotate(180deg);
+        content: "\f106";
+    }
+    /* .sub-menu div.hide {
+        display: none;
+    } */
+   /*  .sub-menu div.show-list {
+       display: block;
+   } */
+    /* .list-hide {
+        display: none !important;
+    } */
+}
+/*-----------------------------------CONTENT----------------------*/
+.slider-content {
+    padding-bottom: 20px;
+}
+.owl-carousel .owl-item img {
+    /* height: 500px!important; */
+    width: 100%!important;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    max-width: 100%;
+}
+.gallerysClass .owl-carousel .owl-item img {
+    height: 500px!important;
+    width: 100%!important;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    max-width: 100%;
+}
+#mainContainer {
+    min-width: auto;
+}
+div#blockViewPdf div#blockView #iframe iframe {
+    width: 100%!important;
+    height: 100%!important;
+}
+div#blockViewPdf div#blockView {
+    width: 75%;
+}
+#centerPart h1 {
+    text-align: center;
+}
+.slider-biokurs.owl-carousel {
+    display: block;
+}
+.TextPage span.numb.viber {
+    position: relative;
+    background: none;
+    padding: 0;
+}
+.TextPage span.numb.viber:after {
+    content: "";
+    background: url(../img/icon-viber.png) no-repeat 3px 0px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-size: 25px;
+    top: -10px;
+}
+.contactsClass .TextPage table tr#headTable td {
+    background-color: #DAF3EA;
+    color: #333;
+}
+.contactsClass .TextPage table tr#headTable table tr:nth-child(2n) td {
+    background-color: #F1FBF8;
+}
+.TextPage #PageNews.contentNews figcaption {
+    text-align: inherit;
+}
+#centerPart div.TextPage:first-child {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+#centerPart div.TextPage figcaption {
+    text-align: center;
+}
+div#content ul.listNav > li {
+    display: block;
+    height: auto;
+}
+div#content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+} 
+div#content > div {
+    display: block;
+}
+#index-content div#content > div#centerPart {
+    padding: 0 15px;
+    width: 50%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+div#content > div#leftPart, div#content > div#rightPart {
+    width: 25%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+div#content ul.listNav > li > a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+div#content a.adHotTimes {
+    width: 100%;
+}
+div#content div#lastNews {
+    width: 100%;
+}
+div#pluginFaceBookSmall {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.fb_iframe_widget span {
+    width: 100%!important;
+}
+.fb_iframe_widget iframe {
+    width: 100%!important;
+    position: static!important;
+}
+div#content > div#centerPart {
+    width: 75%;
+    padding: 0 15px;
+}
+div#content > div#centerPart .TextPage .contentNews {
+    padding: 0;
+}
+div#content > div#centerPart.collectiveClass .TextPage {
+    text-align: center;
+}
+div#content > div#centerPart.collectiveClass .TextPage img {
+    margin: 0;
+}
+div#content > div#centerPart.partnersClass .TextPage {
+    text-align: center;
+}
+div#content > div#centerPart.partnersClass figure img {
+    margin: 0 20px 0px 0;
+}
+div#content > div#centerPart.contactsClass {
+    width: 100%;
+}
+.owl-carousel .owl-dots {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+}
+.owl-carousel .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+}
+.owl-carousel .owl-dots .owl-dot span {
+    background: #e4f7ec;
+    border: 1px solid #348e5d;
+    width: 15px;
+    height: 15px;
+    margin: 0 7px;
+    display: block;
+    transition: opacity .2s ease;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    border-radius: 50%;  
+}
+.owl-carousel .owl-dots .owl-dot.active span {
+    background: #348e5d; 
+    border: 1px solid #348e5d;
+    width: 15px;
+    height: 15px;
+    margin: 0 7px;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+     -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    border-radius: 50%;
+}
+.TextPage table tbody tr td {
+    width: 25%;
+    word-break: break-all;
+    vertical-align: top;
+    padding: 5px;
+} 
+div#PageNews figure.news figcaption a {
+    text-align: left;
+    line-height: 20px;
+    color: #303F9F;
+}
+#rightPart div.getResults {
+    display: none;
+}
+.marquee {
+    display: none;
+}
+
+@media only screen and (max-width: 992px){
+    div#content ul.listNav > li > a {
+        font: 14px 'segoe ui', arial, tahoma, verdana, sans-serif;
+    }
+    #pluginFaceBookSmall {
+        display: none;
+    }
+    div#content ul.listNav > li > a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 7px 10px 7px 45px;
+        height: auto;
+    }
+    div#content ul.listNav.home > li.getResults a:before {
+        background-position: 4px -388px;
+    }
+    div#content ul.listNav.home > li.address a:before {
+        background-position: -105px -388px;
+    }
+    div#content ul.listNav.home > li.testsHome a:before {
+        background-position: -215px -388px;
+    }
+    div#content ul.listNav.home > li.questionsAnswers a:before {
+        background-position: -333px -388px;
+    }
+    div#content ul.listNav.home > li.askDoctor a:before {
+        background-position: -446px -393px;
+    }
+    div#content ul.listNav.home > li.jobs a:before {
+        background-position: -570px -388px;
+    }
+    div#content ul.listNav.home > li.comments a:before {
+        background-position: -684px -395px;
+    }
+    #socialFB {
+        display: none;
+    }
+    .TextPage table tbody tr td {
+        font: 15px arial, tahoma, verdana, sans-serif;
+    }
+    div.lab div.name {
+        width: 170px;
+    }
+    div#positionContent {
+        margin: 0 auto;
+    }
+    .owl-carousel .owl-item img {
+       /*  height: 400px!important; */
+    }
+}
+/*-----------------------Р±С–РіСѓС‡Р° СЃС‚СЂРѕРєР°----------------------*/
+@media only screen and (max-width: 767px){
+    @-webkit-keyframes scroll {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+@-moz-keyframes scroll {
+    0% {
+        -moz-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -moz-transform: translate(-100%, 0);
+        transform: translate(-100%, 0)
+    }
+}
+@keyframes scroll {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0)
+    }
+}
+.marquee {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0;
+    padding-bottom: 5px;
+    margin-top: -10px;
+}
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    color: #303F9F;
+    -webkit-animation: scroll 5s infinite linear;
+    -moz-animation: scroll 5s infinite linear;
+    animation: scroll 9s infinite linear;
+    font: 17px/23px 'ptSansLight', arial, tahoma, verdana, sans-serif;
+    font-weight: bold;
+}
+/*------------------------------------------------------*/
+    div#content ul.listNav.home > li a:after {
+        top: 36%;
+    }
+    #rightPart div.getResults {
+        position: relative;
+        display: block;
+        bottom: 10px;
+    }
+    #index-content div#content > div#centerPart {
+        padding: 20px 0;
+    }
+    .owl-carousel .owl-item img {
+        height: 300px!important;
+    }
+    .gallerysClass .owl-carousel .owl-item img {
+        height: 300px!important;
+    }
+
+    div#biokurs47 {
+        width: auto;
+    }
+    div#biokurs47 div.list {
+        width: auto;
+    }
+    div#biokurs47 div.list ul li a span.name {
+        font: 16px 'ptSansLight', arial, tahoma, verdana, sans-serif;
+    }
+    .TextPage strong a strong {
+        word-break: break-word;
+    }
+    div#content > div#centerPart .TextPage iframe {
+        width: auto;
+    }
+    div#blockFeedback form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    div#PageNews figure.news {
+        width: auto;
+        padding: 0 10px;
+    }
+    div#content > div#centerPart {
+        padding: 0;
+    }
+    div#content ul.listNav.home > li > a {
+        padding: 0px 10px 0px 70px;
+    }
+    #index-content div#content > div#centerPart {
+        width: 98%;
+    }
+    #socialLike {
+        display: none;
+    }
+    #centerPart div.TextPage:first-child {
+        display: block;
+    }
+    .TextPage table tbody tr td {
+        font: 10px arial, tahoma, verdana, sans-serif;
+    }
+    .TextPage table tr#headTable td {
+        font: 10px arial, tahoma, verdana, sans-serif;
+        padding: 2px;
+        text-align: left;
+        text-transform: none;
+    }
+    .contactsClass .TextPage table {
+        margin: 0;
+    }
+    .TextPage #BlockGoogleMap img {
+        margin: 0;
+    }
+    div#PageNews figure.news figcaption div.dateView {
+        font: 12px arial, tahoma, verdana, sans-serif;
+        margin: 0px 0px 5px 0px;
+        height: 23px;
+        width: 130px;
+        background: #42A5F5;
+    }
+    div#PageNews figure.news figcaption div.dateView:before {
+        border-left: 8px solid #42A5F5;
+    }
+    div#content > div#centerPart .TextPage {
+        text-align: justify;
+        font : normal 14px/23px arial, tahoma, verdana, sans-serif;
+    }
+    #centerPart h1 {
+        font-size: 18px;
+    }
+    div#content > div#centerPart .TextPage h1 {
+        font: 20px 'ptSansLight', arial, tahoma, verdana, sans-serif;
+        padding-top: 30px;
+    }
+    div#content > div#leftPart, div#content > div#rightPart {
+        width: 100%;
+    }
+    div#content > div#centerPart .TextPage > div {
+        padding: 0 15px;
+    }
+    div.promotion {
+        padding: 10px 5px 10px 5px;
+    }
+    div#content {
+        position: relative;
+        font: 15px/23px 'ptSansLight', arial, tahoma, verdana, sans-serif;
+        color: #333;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column nowrap;
+                flex-flow: column nowrap;
+        -webkit-box-pack: center; 
+        /*display: block;*/
+    }
+    div#questionAnswers input[type=input], div#questionAnswers input[type=text] {
+        width: 75%;
+    }
+    #questionAnswers {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    } 
+    #questionAnswers p {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    div#capcha {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 10px 0 20px 0px;
+    }
+    div#questionAnswers textarea {
+        width: 75%;
+        min-width: auto;
+    }
+    div#questionAnswers input[type=submit] {
+        margin: 0;
+    }
+    #medical_block form {
+        text-align: center;
+    }
+    #index-content div#content > div#centerPart {
+        width: 100%;
+    }
+    div#content > div#centerPart {
+        width: 100%;
+    }
+    div#content div#lastNews {
+        float: none;
+        width: 100%;
+    }
+    div#content div#lastNews {
+        width: 100%;
+    }
+    div#content ul.listNav > li {
+        height: auto;
+    }
+    #index-content div#content ul.listNav.home > li > a {
+        padding: 0 8px 0 70px;
+    }
+    div#content ul.listNav > li > a {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 0 8px 0 35px;
+        height: 40px;
+    }
+    div#content ul.listNav.home > li.getResults a:before {
+        background-position: 3px -400px;
+    }
+    div#content ul.listNav.home > li.address a:before {
+        background-position: -105px -400px;
+    }
+    div#content ul.listNav.home > li.testsHome a:before {
+        background-position: -215px -400px;
+    }
+    div#content ul.listNav.home > li.questionsAnswers a:before {
+        background-position: -333px -400px;
+    }
+    div#content ul.listNav.home > li.askDoctor a:before {
+        background-position: -446px -400px;
+    }
+    div#content ul.listNav.home > li.jobs a:before {
+        background-position: -570px -400px;
+    }
+    div#content ul.listNav.home > li.comments a:before {
+        background-position: -684px -404px;
+    }
+    div#blockFeedback select, div#blockFeedback textarea, div#blockFeedback input[type="text"] {
+        width: 75%;
+    }
+    div#blockFeedback textarea {
+        width: 75%;
+        min-width: auto;
+    }
+    div#blockFeedback input[type=submit] {
+        margin: 0 0 15px 0;
+    }
+    div.service {
+        padding: 0;
+    }
+    div.service .name {
+        padding: 0;
+    }
+    div.how > div.text {
+        line-height: 20px;
+    }
+    div.answers div.ask {
+        line-height: 22px;
+    }
+    .TextPage a.sendQuestion {
+        top: 3px;
+    }
+    .TextPage a.linkMedDocs {
+        font: 18px 'segoe ui', arial, tahoma, verdana, sans-serif;      
+    }
+    .TextPage .phoneTitle.mob {
+        font: 15px arial, tahoma, verdana, sans-serif;
+    }
+    .TextPage div.service .name {
+        font: 15px/26px 'ptSansLight', arial, tahoma, verdana, sans-serif;
+    }
+    div#PageNews figure.news article.description {
+        font: 14px/23px 'ptSansLight', arial, tahoma, verdana, sans-serif;
+        line-height: 20px;
+    }
+    .TextPage div.service .text {
+        font: 14px/26px 'ptSansLight', arial, tahoma, verdana, sans-serif;
+        line-height: 20px;
+        word-break: break-word;
+    }
+    .contactsClass .TextPage .phoneTitle.mob {
+        font: 15px arial, tahoma, verdana, sans-serif;
+    }
+    .contactsClass .TextPage span.numb {
+        font: 14px arial, tahoma, verdana, sans-serif;
+    } 
+    .TextPage span.numb.viber:after {
+        background-size: 18px;
+        top: -4px;
+    }
+    .TextPage .phoneTitle.stac {
+        font: 15px arial, tahoma, verdana, sans-serif; 
+    }
+    div.answers div.reply {
+        margin: 0 5px 0 30px;
+    }
+    .TextPage article {
+        padding: 0 10px;
+    }
+    div.lab div.text {
+        line-height: 18px;
+    }
+    div.lab div.name {
+        line-height: 20px;
+        font: 18px 'ptSansLight', arial, tahoma, verdana, sans-serif;
+    }
+    a.goBack {
+        padding: 10px 15px;
+    }
+}
+@media(max-width: 480px){
+    div.lab div.text {
+        padding: 5px 5px;
+    }
+    div.lab div.name {
+        width: 130px;
+    }
+    div#blockViewPdf div#blockView {
+        width: 100%;
+    }
+    div#blockViewPdf div#blockView {
+        padding: 0px;
+        background: none;
+        height: 500px;
+    }
+    #outerContainer #mainContainer {
+        min-width: auto!important;
+    } 
+    div#blockViewPdf div#blockView > a.close {
+        position: absolute;
+        display: block;
+        top: -35px;
+        right: 10px;
+        font: 30px 'ptSansLight', Arial, Tahoma, Verdana;
+    }
+    #toolbarContainer #toolbarViewerRight {
+        float: none;
+    }
+    #toolbarContainer #toolbarViewerMiddle {
+        margin: 0;
+    }
+} 
+/*------------------------FOOTER-------------------------------*/
+a#blockCopyRightWM{
+    position: static;
+    width: auto;
+    height: auto;
+}
+a#blockCopyRightWM figcaption {
+    font-size: 14px;
+}
+a#blockCopyRightWM[data-align="left"] figure {
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column nowrap;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-left: 10px;
+
+}
+#blockCopyRightWM .styleLogoWM {
+    width: 100%;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    max-width: 255px;
+    height: 25px;
+    margin: 14px 0px 0;
+    flex-flow: row nowrap;
+}
+a#blockCopyRightWM[data-align="left"] .styleLogoWM {
+    background: none;
+    text-indent: 0;
+}
+#blockCopyRightWM .styleLogoWM img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+}
+/* footer div#positionFooter > div.copyright div.copyRightBiokurs {
+    background: url(../img/sprite.png) no-repeat 20px -763px;
+    width: auto;
+} */
+footer div#positionFooter > div.contacts span {
+    color: rgb(255,255,255);
+    -webkit-text-fill-color: rgb(255,255,255);
+}
+footer div#positionFooter > div.contacts span {
+    text-indent: 40px;
+}
+footer div#positionFooter > div.contacts span:nth-child(3) {
+    position: relative;
+}
+footer div#positionFooter > div.contacts span:nth-child(3):after {
+    content: "";
+    background: url(../img/icon-viber.png) no-repeat 3px 0px;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background-size: 23px;
+    top: -5px;
+    right: -35px;
+}
+footer div#positionFooter > div.contacts span.title {
+    text-indent: 0;
+}
+footer div#positionFooter {
+    display: block;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+footer div#positionFooter .contacts {
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: block;
+}
+div#positionFooter:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+footer div#positionFooter > div.address {
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: block;
+}
+footer div#positionFooter > div.license {
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: block;
+}
+footer div#positionFooter > div.copyright {
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    display: block;
+}
+footer div#positionFooter > div.copyright .copyRightBiokurs {
+    margin: 0 auto;
+}
+footer div#positionFooter > div.copyright div.copyRightBiokurs img {
+    display: none;
+}
+#blockCopyRightWM .logo-black {
+    display: none;
+}
+
+
+@media(max-width: 1200px){
+    footer div#positionFooter > div.license span.textLicense{
+        padding: 0px 0px 5px 0px;
+    }
+    /* a#blockCopyRightWM {
+        bottom: 0;
+    } */
+}
+@media only screen and (max-width: 992px){
+    footer div#positionFooter > div.contacts span.phone{
+        font: 15px arial, tahoma, verdana, sans-serif;
+    }
+    footer div#positionFooter > div.contacts span {
+        text-indent: 10px;
+    }
+    footer div#positionFooter > div {
+        padding: 20px 0 10px 10px;
+    }
+    footer div#positionFooter > div.contacts span:nth-child(3):after {
+        background-size: 21px;
+        right: -32px;
+    }
+    footer div#positionFooter > div.address a.viewMap {
+        display: none;
+    }
+    footer {
+        margin: 0 auto;
+    }
+    footer div#positionFooter > div.address {
+        width: 20%;
+    }
+    footer div#positionFooter > div.copyright {
+        width: 30%;
+    }
+    #blockCopyRightWM .styleLogoWM {
+        height: 25px;
+    }
+    a#blockCopyRightWM figcaption {
+        font-size: 12px;
+    }
+} 
+@media only screen and (max-width: 767px){
+    footer div#positionFooter > div.copyright div.copyRightBiokurs {
+        width: 50%;
+    }
+    footer {
+        width: 100%;
+        margin: 0 auto;
+    }
+    footer div#positionFooter {
+        display: -webkit-box;
+        display: -ms-flexbox; 
+        /* display: block; */
+        display: flex;
+        -ms-flex-flow: column nowrap;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-flow: column nowrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        align-items: center; 
+        overflow: hidden;
+    }
+    /* a#blockCopyRightWM{
+        position: static!important;
+    } */
+    footer div#positionFooter > div {
+        padding: 0;
+        display: block;
+    }
+    footer div#positionFooter > div.contacts {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 20px;
+        /* position: static; */
+        display: block;
+    }
+    footer div#positionFooter > div.contacts span.phone {
+        float: none;
+        font-size: 15px;
+        text-indent: 0;
+        color: rgb(255,255,255);
+    }
+    footer div#positionFooter > div.contacts span.phone i {
+        font-size: 13px;
+    }
+    footer div#positionFooter > div.address {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    footer div#positionFooter > div.license {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    footer div#positionFooter > div.license span.textLicense {
+        font-size: 13px;
+    }
+    footer div#positionFooter > div.copyright {
+        width: 100%;
+       /*  display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -ms-flex-pack: distribute;
+           justify-content: space-around;
+       -webkit-box-align: center;
+           -ms-flex-align: center;
+               align-items: center;
+       align-items: center; */
+        border-top: 1px solid #fff;
+        background-color: white;
+    }
+    footer div#positionFooter > div.copyright:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    footer div#positionFooter > div.copyright div.copyRightBiokurs {
+        width: 50%;
+        float: left;
+    }
+   /* footer div#positionFooter > div.copyright div.copyRightBiokurs span.date {
+        position: static;
+    }*/
+    a#blockCopyRightWM {
+        width: 50%;
+        float: left;
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+    footer div#positionFooter > div.contacts span.title {
+        background: none;
+        font-size: 15px;
+        padding: 15px 0px 7px 0px;
+        position: relative;
+    }
+    footer div#positionFooter > div.contacts span.title:before {
+        content: "\f095"; 
+        font-family: FontAwesome;
+        position: relative;
+        left: -3px;
+        font-size: 16px;
+        top: 2px;   
+    }
+    footer div#positionFooter > div.contacts span.title:after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 145px;
+        height: 1px;
+        left: 50%;
+        top: 100%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        background-color: #fff;
+    }
+    footer div#positionFooter > div.address span.title {
+        font-size: 15px;
+        position: relative;
+    }
+    footer div#positionFooter > div.address span.title:after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 145px;
+        height: 1px;
+        left: 50%;
+        top: 100%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
+        background-color: #fff;
+    }
+    footer div#positionFooter > div.address address {
+        font-size: 13px;
+    }
+    footer div#positionFooter > div.contacts span:nth-child(3):after {
+        right: auto;
+        background-size: 19px;
+        top: -3px;
+    }
+    footer div#positionFooter > div.copyright div.copyRightBiokurs img {
+        display: block;
+        margin: -22px auto;
+        width: 100%;
+    }
+    footer div#positionFooter > div.copyright div.copyRightBiokurs div {
+        width: 65%;
+        margin: 0 auto;
+    }
+     footer div#positionFooter > div.copyright div.copyRightBiokurs {
+        background: none;
+    }
+    footer div#positionFooter > div.copyright div.copyRightBiokurs span.date {
+        position: static;
+        float: right;
+        color: #004289;
+    }
+    #blockCopyRightWM .logo-black {
+        display: block;
+    }
+     #blockCopyRightWM .logo-white {
+        display: none;
+     }
+     a#blockCopyRightWM figcaption {
+        color: #737373;
+        font-size: 10px;
+     }
+} 
+@media only screen and (max-width: 480px){
+    footer div#positionFooter > div.address a.viewMap {
+        font: 18px/26px arial, tahoma, verdana, sans-serif;
+        padding: 10px 40px 10px 75px;
+    }
+    a#blockCopyRightWM[data-align="left"] > div#blockContactWM {
+        right: 17px;
+        width: 145px;
+    }
+    footer div#positionFooter > div.copyright {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        padding: 0 !important;
+    } 
+    div#content div.adProgramsDiagnostic a:after {
+        position: static;
+    }
+    a#blockCopyRightWM {
+        padding: 0;
+        width: auto;
+    }
+    footer div#positionFooter > div.copyright div.copyRightBiokurs {
+        margin-top: 10px; 
+        width: auto;
+        background: none;
+    }
+    footer div#positionFooter > div.copyright div.copyRightBiokurs img {
+        /*position: absolute;*/
+       /* width: 70%;*/
+    }
+    a#blockCopyRightWM[data-align="left"] figure {
+        top: -5px;
+        right: -12px;
+    }
+    footer div#positionFooter > div.copyright div.copyRightBiokurs span.date {
+        position: absolute;
+        right: 20px;
+    }
+}

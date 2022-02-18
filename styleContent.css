@@ -1,0 +1,168 @@
+footer{
+	position: relative;
+	float: none;
+	max-width: 1280px;
+	width: 98%;
+	min-height: 175px;
+	margin: 0 auto 15px auto;
+	padding: 0;
+	background-color: #40a883;
+}
+footer div#positionFooter{
+	position: relative;
+	display: table;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+footer div#positionFooter > div{
+	position: relative;
+	display: table-cell;
+	vertical-align: top;
+	padding: 20px 20px 10px 20px;
+	margin: 0;
+	height: 100%;
+}
+footer div#positionFooter > div.contacts{width: 25%}
+footer div#positionFooter > div.address{width: 25%}
+footer div#positionFooter > div.license{width: 25%}
+footer div#positionFooter > div.copyright{width: 25%; padding: 10px 20px !important;}
+footer div#positionFooter > div.contacts span.title{
+	display: block;
+	padding: 5px 0px 7px 35px;
+	margin: 0px 0px 5px 0px;
+	font: 17px arial, tahoma, verdana, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	background: url(../img/sprite.png) no-repeat -10px -582px;
+}
+footer div#positionFooter > div.contacts span.phone{
+	display: block;
+	float: left;
+	padding: 0px 0px 6px 0;
+	font: 22px arial, tahoma, verdana, sans-serif;
+	color: #fff;
+}
+footer div#positionFooter > div.contacts span.phone > i{
+	font: 13px arial, tahoma, verdana, sans-serif;
+	color: #fff;
+}
+footer div#positionFooter > div.address span.title{
+	display: block;
+	padding: 5px 0px 0px 0px;
+	margin: 0px 0px 5px 0px;
+	font: 17px arial, tahoma, verdana, sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+footer div#positionFooter > div.address address{
+	display: block;
+	padding: 5px 0px 5px 0px;
+	margin: 0px 0px 5px 0px;
+	font: 13px arial, tahoma, verdana, sans-serif;
+	color: #fff;
+}
+footer div#positionFooter > div.address a.viewMap{
+	position: relative;
+	display: inline-block;
+	min-height: 35px;
+	padding: 10px 5px 10px 85px;
+	font: 12px/19px arial, tahoma, verdana, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #4ab690;
+	border: 1px solid #389876;
+	border-radius: 6px;
+	transition: all 0.2s;
+}
+footer div#positionFooter > div.address a.viewMap:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 65px;
+	height: 100%;
+	background: url(../img/sprite.png) no-repeat 6px -649px, #59c8a1;
+	border-radius: 6px 0px 0px 6px;
+	transition: all 0.4s;
+}
+footer div#positionFooter > div.address a.viewMap:hover:before{
+	background: url(../img/sprite.png) no-repeat 6px -649px, #4ab690;
+}
+footer div#positionFooter > div.address a.viewMap:hover{
+	background-color: #59c8a1;
+}
+footer div#positionFooter > div.license span.textLicense{
+	display: block;
+	padding: 0px 0px 11px 0px;
+	margin: 0;
+	font: italic 13px arial, tahoma, verdana, sans-serif;
+	color: #fff;
+	text-decoration: none;
+}
+footer div#positionFooter > div.copyright div.copyRightBiokurs{
+	position: relative;
+	display: block;
+	width: 190px;
+	height: 90px;
+	color: transparent;
+	background: url(../img/sprite.png) no-repeat -10px -763px;
+}
+footer div#positionFooter > div.copyright div.copyRightBiokurs span.date{
+	position: absolute;
+	top: 0;
+	right: 0;
+	font: 13px arial, tahoma, verdana, sans-serif;
+	color: #fff;
+}
+@media(max-width: 1200px){
+	footer div#positionFooter > div.contacts{/* width: 190px; */ padding-right: 5px;}
+	footer div#positionFooter > div.contacts span.title{
+		padding: 7px 0px 5px 35px;
+		margin: 0px 0px 5px 0px;
+		font: 13px arial, tahoma, verdana, sans-serif;
+	}
+	 footer div#positionFooter > div.contacts span.phone{
+		padding: 4px 0px 5px 0;
+		font: 17px arial, tahoma, verdana, sans-serif;
+	}
+	footer div#positionFooter > div.contacts span.phone > i{
+		font: 12px arial, tahoma, verdana, sans-serif;
+		color: #fff;
+	} 
+	/* footer div#positionFooter > div.address{width: 220px;} */
+	footer div#positionFooter > div.address span.title{
+		padding: 5px 0px 0px 0px;
+		margin: 0px 0px 5px 0px;
+		font: 15px arial, tahoma, verdana, sans-serif;
+		color: #fff;
+	}
+	footer div#positionFooter > div.address address{
+		padding: 5px 0px 5px 0px;
+		margin: 0px 0px 5px 0px;
+		font: 12px arial, tahoma, verdana, sans-serif;
+		color: #fff;
+	}
+	footer div#positionFooter > div.address a.viewMap{
+		padding: 10px 5px 10px 75px;
+		font: 12px/19px arial, tahoma, verdana, sans-serif;
+		color: #fff;
+	}
+	footer div#positionFooter > div.address a.viewMap:before{
+		background: url(../img/sprite.png) no-repeat 6px -635px, #59c8a1;
+	}
+	footer div#positionFooter > div.address a.viewMap:hover:before{
+		background: url(../img/sprite.png) no-repeat 6px -635px, #4ab690;
+	}
+	footer div#positionFooter > div.address a.viewMap:hover{
+		background-color: #59c8a1;
+	}
+}
+/*-----in admin-panel-----*/
+.viber {
+	background: url(../img/viber.png) no-repeat 1px 5px;
+	margin: 5px 0px 0px 0px;
+    padding: 8px 0px 8px 68px;
+}

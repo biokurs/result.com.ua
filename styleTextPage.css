@@ -1,0 +1,198 @@
+header{
+	position: relative;
+	width: 100%;
+	height: 185px;
+	background: #e4f7ec;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U0ZjdlYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #e4f7ec 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e4f7ec), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top,  #e4f7ec 0%,#ffffff 100%);
+	background: -o-linear-gradient(top,  #e4f7ec 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top,  #e4f7ec 0%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #e4f7ec 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f7ec', endColorstr='#ffffff',GradientType=0 );	
+}
+header > #header{
+	position: relative;
+	max-width: 1280px;
+	width: 98%;
+	height: 135px;
+	margin: 0 auto;
+	padding: 0;
+} 
+header > aside{
+	position: relative;
+	max-width: 1280px;
+	width: 98%;
+	height: 40px;
+	margin: 0 auto;
+	padding: 10px 0px 0px 0px;	
+}
+header > aside a.linkHomePage{
+	position: relative;
+	float: left;
+	display: inline-block;
+	text-decoration: none;
+	width: auto;
+	height: 24px;
+	padding: 0px 0px 0px 25px;
+	font: 13px/18px arial, tahoma, verdana, sans-serif;
+	color: #019973;
+	text-decoration: underline;
+	background: url(../img/icon-house.png) no-repeat top left;
+}
+header > aside a.linkHomePage:hover{
+	text-decoration: none
+}
+header a.logo{
+	position: relative;
+	float: left;
+	display: block;
+	/* width: 270px; */
+	width: 30%;
+	height: 115px;
+	margin: 0;
+	text-decoration: none;
+	color: transparent;
+}
+header a.logo img{
+	border: none;
+	/* width: 100%; */
+}
+header div.contacts{
+	position: relative;
+	float: right;
+	display: table;
+	width: 70%;
+	height: 90px;
+	margin: 20px 0px 0px 0px;
+}
+header div.contacts > div{
+	position: relative;
+	display: table-cell;
+	height: 100%;
+}
+/* header div.contacts > div{
+	width: auto;
+} */
+header div.contacts .phone {
+	width: 80%;
+}
+header div.contacts > div.phone span.title{
+	display: block;
+	padding: 5px 0px 6px 35px;
+	margin: 0px 0px 5px 0px;
+	font: 23px arial, tahoma, verdana, sans-serif;
+	color: #296d47;
+	text-transform: uppercase;
+	background: url(../img/sprite.png) no-repeat -10px -10px;
+}
+header div.contacts > div.phone span.number{
+	display: block;
+	float: left;
+	margin: 0px 10px 0px 0px;
+	padding: 8px 10px 8px 5px;
+	font: italic 23px arial, tahoma, verdana, sans-serif;
+	color: #328a5a;
+}
+header div.contacts > div.phone span.number i{
+	font: italic 13px arial, tahoma, verdana, sans-serif;
+}
+header div.contacts > div.email{
+	/* width: 210px; */
+	width: 20%;
+}
+header div.contacts > div.email span.title{
+	display: block;
+	padding: 5px 0px 6px 35px;
+	margin: 0px 0px 5px 0px;
+	font: 16px arial, tahoma, verdana, sans-serif;
+	color: #296d47;
+	text-transform: uppercase;
+	background: url(../img/sprite.png) no-repeat -10px -68px;
+}
+header div.contacts > div.email a{
+	display: block;
+	font: 16px arial, tahoma, verdana, sans-serif;
+	color: #333;	
+}
+/* style link lang */
+header div.userLinks{
+	position: relative;
+	float: right;
+}
+header div.userLinks div.socialLink{
+	position: relative;
+	font-size: 0;
+	float: left;
+	margin: 7px 20px 0px 0px;
+}
+header div.userLinks div.socialLink a{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 30px;	
+	margin: 0px 7px 0px 0px;
+	padding: 0;
+	color: transparent;
+	transition: margin 0.15s;
+}
+header div.userLinks div.socialLink a.skype{
+	width: 86px;
+	height: 25px;
+	padding: 9px 0px 0px 31px;
+	font: italic 13px arial, tahoma, verdana, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	background: url(../img/sprite.png) no-repeat -10px -127px;
+	transition: opacity 0.1s;
+}
+header div.userLinks div.socialLink a.facebook{
+	background: url(../img/sprite.png) no-repeat -139px -128px;
+}
+header div.userLinks div.socialLink a.twitter{
+	background: url(../img/sprite.png) no-repeat -171px -128px;
+}
+header div.userLinks div.socialLink a.google{
+	background: url(../img/sprite.png) no-repeat -238px -128px;
+}
+header div.userLinks div.socialLink a.vk{
+	background: url(../img/sprite.png) no-repeat -205px -128px;
+}
+header div.userLinks div.socialLink a.skype:hover{
+	opacity: 0.6;
+}
+header div.userLinks div.socialLink a:not(.skype):hover{
+	margin-top: -5px;
+}
+header div.userLinks div.langLink{
+	position: relative;
+	float: left;
+	font-size: 0;
+}
+header div.userLinks div.langLink a{
+	display: inline-block;
+	width: 32px;
+	height: 23px;
+	padding: 8px 0px 0px 0px;
+	margin: 1px 7px 0px 0px;
+	font: 12px arial, tahoma, verdana, sans-serif;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 50px;
+	background: #40B774;
+	box-shadow: none;
+	border: 4px solid #D0E6DA;
+}
+header div.userLinks div.langLink a:hover,
+header div.userLinks div.langLink a.current{
+	border-radius: 50px;
+	background: #42C88B;
+	box-shadow: inset -10px -8px 12px #1A894A;
+	border: 4px solid #D0E6DA;
+}
+header div.userLinks div.langLink a:last-child{
+	margin: 0;
+}

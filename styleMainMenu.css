@@ -1,0 +1,116 @@
+div#slideShow{
+    position: relative;
+    max-width: 1280px;
+    width: 98%;
+    height: 240px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: url(../img/bg-abstract.png) no-repeat 5px -10px, #e6fcf0;
+    background: url(../img/bg-abstract.png) no-repeat 5px -10px, url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U2ZmNmMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkM2Y5ZTMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: url(../img/bg-abstract.png) no-repeat 5px -10px, -moz-linear-gradient(top,  #e6fcf0 0%, #d3f9e3 100%);
+    background: url(../img/bg-abstract.png) no-repeat 5px -10px, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e6fcf0), color-stop(100%,#d3f9e3));
+    background: url(../img/bg-abstract.png) no-repeat 5px -10px, -webkit-linear-gradient(top,  #e6fcf0 0%,#d3f9e3 100%);
+    background: url(../img/bg-abstract.png) no-repeat 5px -10px, -o-linear-gradient(top,  #e6fcf0 0%,#d3f9e3 100%);
+    background: url(../img/bg-abstract.png) no-repeat 5px -10px, -ms-linear-gradient(top,  #e6fcf0 0%,#d3f9e3 100%);
+    background: url(../img/bg-abstract.png) no-repeat 5px -10px, linear-gradient(to bottom,  #e6fcf0 0%,#d3f9e3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6fcf0', endColorstr='#d3f9e3',GradientType=0 );
+}
+div#slideShow a[data-event]{
+    position: absolute;
+    z-index: 3;
+    display: block;
+    top: 50%;
+    margin-top: -48px;
+    width: 30px;
+    height: 95px;
+    color: transparent;
+    text-decoration: none;
+    transition: left 0.2s, right 0.2s;
+}
+div#slideShow a[data-event="prev"]{
+    left: 15px;
+    background: url(../img/sprite.png) no-repeat -10px -245px; 
+}
+div#slideShow a[data-event="prev"]:hover{
+    left: 10px;
+}
+div#slideShow a[data-event="next"]{
+    right: 15px;
+    background: url(../img/sprite.png) no-repeat -46px -245px; 
+}
+div#slideShow a[data-event="next"]:hover{
+    right: 10px;
+}
+div#slideShow div#slides{
+    position: absolute;
+    top: 0;
+    width: 85%;
+    left: 7.5%;
+    height: 240px;
+    margin: 0 auto;
+    text-align: center;
+}
+div#slideShow div#slides span.text{
+    position: relative;
+    display: inline-block;
+    height: 100px;
+    padding: 40px 0px 40px 290px;
+    margin: 30px 0px 0px 0px;
+    font: 38px arial, tahoma, verdana, sans-serif;
+    color: #348e5d;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 4px rgba(0,0,0, .08);
+    background: url(../img/bg-logo-slide.png) no-repeat left center;
+    transition: padding .6s, font .2s;
+}
+div#slideShow div#slides span.text.family{
+    background: transparent;
+    margin-right: -80px;
+    padding-right: 100px;
+    padding-left: 0 !important;
+}
+div#slideShow div#slides span.text.family:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    right: -230px;
+    width: 515px;
+    height: 220px;
+    background: url(../img/bg-family.png) no-repeat top center;
+}
+div#slideShow div#slides span.text.family:before{
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: -260px;
+    width: 515px;
+    height: 240px;
+    background: url(../img/bg-analysis.png) no-repeat top center;
+}
+div#slideShow div#slides span.text.family:after,
+div#slideShow div#slides span.text.family:before{
+    transition: right .85s, left .85s;
+    -webkit-transition: right .85s, left .85s;    
+}
+div#slideShow div#slides span.text.family.current:before{
+    left: -330px;
+}
+div#slideShow div#slides span.text.family.current:after{
+    right: -300px;
+}
+div#slideShow div#slides span.text.current{
+    padding-left: 200px;
+}
+div#slideShow div#slides span.text i{
+    font-style: normal;
+    display: inline-block;
+    padding: 0 0 0 150px;
+    color: #1B4F9C;
+}
+@media(max-width: 1140px){
+    div#slideShow div#slides span.text{
+        font: 28px arial, tahoma, verdana, sans-serif;
+        color: #348e5d;
+    }
+}

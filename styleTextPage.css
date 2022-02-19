@@ -85,7 +85,7 @@ header div.contacts > div.phone span.title{
 	font: 23px arial, tahoma, verdana, sans-serif;
 	color: #296d47;
 	text-transform: uppercase;
-	background: url(sprite.png) no-repeat -10px -10px;
+	background: url(https://biokurs.com.ua/img/sprite.png) no-repeat -10px -10px;
 }
 header div.contacts > div.phone span.number{
 	display: block;
@@ -109,7 +109,7 @@ header div.contacts > div.email span.title{
 	font: 16px arial, tahoma, verdana, sans-serif;
 	color: #296d47;
 	text-transform: uppercase;
-	background: url(sprite.png) no-repeat -10px -68px;
+	background: url(https://biokurs.com.ua/img/sprite.png) no-repeat -10px -68px;
 }
 header div.contacts > div.email a{
 	display: block;
@@ -144,20 +144,20 @@ header div.userLinks div.socialLink a.skype{
 	font: italic 13px arial, tahoma, verdana, sans-serif;
 	color: #fff;
 	text-decoration: none;
-	background: url(..sprite.png) no-repeat -10px -127px;
+	background: url(https://biokurs.com.ua/img/sprite.png) no-repeat -10px -127px;
 	transition: opacity 0.1s;
 }
 header div.userLinks div.socialLink a.facebook{
-	background: url(sprite.png) no-repeat -139px -128px;
+	background: url(https://biokurs.com.ua/img/sprite.png) no-repeat -139px -128px;
 }
 header div.userLinks div.socialLink a.twitter{
 	background: url(sprite.png) no-repeat -171px -128px;
 }
 header div.userLinks div.socialLink a.google{
-	background: url(sprite.png) no-repeat -238px -128px;
+	background: url(https://biokurs.com.ua/img/sprite.png) no-repeat -238px -128px;
 }
 header div.userLinks div.socialLink a.vk{
-	background: url(sprite.png) no-repeat -205px -128px;
+	background: url(https://biokurs.com.ua/img/sprite.png) no-repeat -205px -128px;
 }
 header div.userLinks div.socialLink a.skype:hover{
 	opacity: 0.6;
